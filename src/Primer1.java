@@ -21,7 +21,7 @@ public class Primer1 {
     public static void main(String[] args) throws IOException {
         try {
             // С потоком связан файл
-            InputStream inFile = new FileInputStream("c:/tmp/text.txt");
+            InputStream inFile = new FileInputStream("D:/MyFile2.txt");
             readAllByByte(inFile);
             System.out.print("\n\n\n");
             inFile.close();
