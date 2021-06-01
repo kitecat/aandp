@@ -9,8 +9,8 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Simple Chat Form");
-        primaryStage.setScene(new Scene(root, 400, 600));
+        primaryStage.setTitle("Authorization Form");
+        primaryStage.setScene(new Scene(root, 400, 400));
         primaryStage.show();
     }
 
